@@ -1,0 +1,203 @@
+@charset "UTF-8";
+body {
+  background-image: url("OIP (3).jpeg");
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+div#interface {
+  width: 1400px;
+  background-color: white;
+  margin: -20px auto 0 auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+  padding: 10px;
+}
+header#cbc1 img#icon {
+  position: absolute;
+  left: 540px;
+  top: 155px;
+  width: 12.5%;
+}
+header#cbc1 h1, header#cbc1 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: red;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+  padding: 0;
+  margin: 0;
+}
+header#cbc1 h2 {
+  margin-top: 0;
+}
+p {
+  text-align: left;
+  font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+header#cbc1 {
+  border-bottom: 1px grey solid;
+  height: 150px;
+}
+figure.fotoleg1, figure.fotoleg2 {
+  position: relative;
+  border: 4px solid red;
+  width: 60%;
+  height: 100%;
+}
+figure.fotoleg1 {
+  box-shadow: 0px 0px 10px black;
+}
+figure.fotoleg2 {
+  box-shadow: 2px 2px 8px black;
+}
+figure.fotoleg1 figcaption, figure.fotoleg2 figcaption {
+  transition: opacity 1s;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, .4);
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+figure.fotoleg1:hover figcaption, figure.fotoleg2:hover figcaption {
+  opacity: 1;
+}
+nav#Menu ul {
+  list-style: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: -40px;
+  left: 540px;
+}
+nav#Menu li {
+  display: inline-block;
+  background-color: grey;
+  padding: 10px;
+  margin: 20px;
+  transition: background-color 1s;
+}
+nav#Menu li:hover {
+  background-color: red;
+}
+nav#Menu a {
+  color: black;
+  text-decoration: none;
+}
+nav#Menu a:hover {
+  color: aliceblue;
+  transition: color 1s;
+}
+section#co {
+  display: block;
+  width: 500px;
+  float: left;
+  padding-right: 15px;
+}
+side#lateral{
+  display: block;
+  width: 350px;
+  float: right;
+}
+footer#Rodape{
+  clear: both;
+  border-top:1px solid grey;
+  text-align: center;
+}
+.container {
+  display: flex; 
+  gap: 20px; 
+}
+h2.na{
+  text-align: left;
+}
+table#SPFC{
+  border: 1px solid grey;
+  border-spacing: 0px;
+  margin-right: auto;
+}
+table#SPFC td{
+  border: 1px solid grey;
+  padding: 10px;
+  text-align: center;
+}
+div#hist h2{
+  text-align: left;
+}
+table#SPFC td.ce{
+color: white;
+background-color: grey;
+font-weight: bolder;
+}
+table#SPFC td.cd{
+color: white;
+background-color: black;
+} 
+table#SPFC caption{
+  color: black;
+  font-size: 20pt;
+  font-weight: bolder;
+}
+table#SPFC caption span{
+  display: block;
+  float: right;
+  color: black;
+  font-size: 8pt;
+  margin-top: 10pt;
+}
+article#principal h2{
+font-size: 17pt;
+color: #000000;
+padding: 5px 0px 5px 0px;
+margin-top: -10px;
+
+}
+header#nog h2{
+  font-size: 12pt;
+color: #000000;
+
+padding: 5px 0px 5px 0px;
+margin: 10px;
+}
+aside#lateral h2{
+  font-size: 18pt;
+color: #000000;
+background-color: #bebcbc;
+padding: 5px 0px 5px 0px;
+margin: 10px;
+box-shadow: rgba(0, 0, 0, .5);
+}
+h2.na{
+  font-size: 18pt;
+color: #000000;
+background-color: #bebcbc;
+padding: 5px 0px 5px 0px;
+margin: 10px;
+text-align: justify;
+}
+table#SPFC caption h2{
+  font-size: 18pt;
+color: #000000;
+background-color: #bebcbc;
+padding: 5px 0px 5px 0px;
+margin: 10px;
+text-align: justify;
+}
+header#nog h1{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 20pt;
+}
+header#nog h3{
+  font-family:'Times New Roman', Times, serif;
+font-size: 8pt;
+}
+.uhu{
+  text-align: right;
+}
+a{
+  color: #bebcbc;
+  text-decoration: none;
+}
+a hover{
+  text-decoration: underline;
+  transition: 1s;
+}
